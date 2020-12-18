@@ -13,7 +13,7 @@ const tambahan = require("./lib/tambahan.js")
 const donasi = require("./lib/donasi.js");
 const info = require("./lib/info.js");
 /////////////////
-const BotName = 'LUCYA BOT'; 
+const BotName = 'ELAINA BOT'; 
 const instagram = 'https://instagram.com/sndrzqy_'; 
 const telegram = 'ikiiii2906'; 
 const kapanbotaktif = 'KETIKA HANYA DIAKTIFKAN'; 
@@ -99,11 +99,11 @@ conn.sendMessage(group.gid, "Halo semua!!!", MessageType.extendedText) // say he
 
 }
 //chat
-if (text == 'Lucya')
+if (text == 'Elaina')
 {
 conn.sendMessage(id, tambahan.halo ,MessageType.text);
 }
-else if (text == 'Siapa owner Lucya?')
+else if (text == 'Siapa owner Elaina?')
 {
 conn.sendMessage(id, tambahan.hai ,MessageType.text);
 }
@@ -131,7 +131,7 @@ else if (text == 'Halo')
 {
 conn.sendMessage(id, tambahan.halo ,MessageType.text);
 }
-else if (text == 'Siapa owner lucya')
+else if (text == 'Siapa owner elaina')
 {
 conn.sendMessage(id, tambahan.hai ,MessageType.text);
 }
@@ -151,7 +151,7 @@ else if (text == 'Test')
 {
   conn.sendMessage(id, tambahan.test, MessageType.text);
 }
-else if (text == 'Siapa owner lucya?')
+else if (text == 'Siapa owner elaina?')
 {
 conn.sendMessage(id, tambahan.hai ,MessageType.text);
 }
